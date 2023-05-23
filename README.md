@@ -4,7 +4,7 @@ Este proyecto permite al usuario encontrar, obtener e indagar informacion sobre 
 
 ## 1. UI Diseño de la Interfaz de Usuario 
 
-⚪Prototipo de baja fidelidad 
+🔸Prototipo de baja fidelidad 
 
 Los bocetos realizados son en base a la opinion de usuarios para proporcionar la informacion mas util y primoldial respecto al contenido del juego y tomar esto como analisis de partida.
 
@@ -13,7 +13,7 @@ Los bocetos realizados son en base a la opinion de usuarios para proporcionar la
 
 ***
 
-🔘Prototipo de alta fidelidad 
+🔸Prototipo de alta fidelidad 
 
 Uso de Figma para creacion de diseño como primer prototipo.
 
