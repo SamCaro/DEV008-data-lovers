@@ -2,6 +2,13 @@
 
 Este proyecto permite al usuario encontrar, obtener e indagar informacion sobre League of Legends, un esports de estrategia multiplayer.
 
+![Screenshot_20230523_065139_notion id_edit_36594937367332](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/abc77609-d6d1-4f82-9175-0412bf41645b)
+
+![Screenshot_20230523_065146_notion id_edit_36585044975146](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/8722495d-33cf-4f4e-b781-0f766dc31d19)
+
+![Screenshot_20230523_065151_notion id_edit_36569941895460](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/61970f9c-9823-461a-9d06-00a59258cebd)
+
+
 ## 1. UI Diseño de la Interfaz de Usuario 
 
 🔸Prototipo de baja fidelidad 
