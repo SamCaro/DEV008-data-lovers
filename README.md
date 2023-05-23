@@ -25,5 +25,5 @@ Uso de Figma para creacion de diseño como primer prototipo.
 ***
 Link a nuestra web:
 
-DEV008 - Laboratoria - Carolyn Yaker & Sam Caro - 2023
+Laboratoria DEV008 - Carolyn Yaker & Sam Caro - 2023
 
