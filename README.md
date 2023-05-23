@@ -1,6 +1,12 @@
 # Data Lovers 🐱‍💻League of Legends
+![Group 2 (3)](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/da562a3d-7e51-4f93-b4ca-c67f527bb93d)
+![Group 1](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/5591077d-b3b2-4b5e-8505-804592235f53)
+![Group 2 (2)](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/0e3530d9-dde3-4f45-8fc9-576093693003)
+![Ficha de personaje #2](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/ec95f4b9-8ca5-4032-9f3b-2ab5f14fa555)
+![Ficha de personaje](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/1822afa9-275a-4350-b840-c69bd57dca7a)
+![Group 4](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/ae3e17cf-f5c1-496d-a814-c00b3ebd23d0)
 
-file:///C:/Users/SAM%20CARO/Downloads/League%20of%20Legends%20team%20library%20(1).pdf
+
 
 ## Índice
 
