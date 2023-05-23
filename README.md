@@ -2,11 +2,6 @@
 
 Este proyecto permite al usuario encontrar, obtener e indagar informacion sobre League of Legends, un esports de estrategia multiplayer.
 
-* [League of Legends - Challenger leaderboard](src/data/lol/lol.json):
-  Este set de datos muestra la lista de campeones en una liga del
-  juego League of Legends (LoL).
-  - [Investigación con jugadores de LoL](src/data/lol/README.md)
-
 ## 1. UI Diseño de la Interfaz de Usuario 
 
 ⚪Prototipo de baja fidelidad 
