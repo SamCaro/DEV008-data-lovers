@@ -1,30 +1,19 @@
 // estas funciones son de ejemplo
 
 //export const example = () => {
-  //return 'example';
+//return 'example';
 //};
 
 //export const anotherExample = () => {
-  //return 'OMG';
+//return 'OMG';
 //};
 
-/*export const nameChampion = (nameOfChampion) => {
-  let key = ""
-  data[key]
-  data.filter( function(name)){
-  return data.name === 'Aatrox'
-  
-}
-console.log(Aatrox);*/
+
 
 /*function filterData(data, condition) {
   ctx.fillStyle = color;
   ctx.fillRect();
 }*/
-
-
-
-
 
 
 /*Ejemplo
