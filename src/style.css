@@ -10,14 +10,14 @@
 body{
     background-image: url('Img/Background.png');
     background-size: cover;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     
 
 
 }
 
-.flexbox{
+/*.flexbox{
     display: flex;
 }
 
@@ -27,10 +27,54 @@ body{
     max-height: 200px;
     
 }
-.Inicio{
-    max-width: 70%;
-    margin: 40% auto;
-    max-height: 200px;
+.iconoInicio{
+    margin-top: 50%;
+    font-size: 300px !important;
+
+}
+*/
+.flexbox{
+    display: flex; /*alinear elementos horizontalmente*/
+    flex-direction: column; /*los elementos se posicionan verticalmente*/
+    align-items: center; /* centar*/
+    padding: 20%;
 }
 
+.iconoInicio {
+  font-size: 100px !important;
+}
 
+/*.fa-2xl {
+    font-size: 8em;
+}*/
+
+.logo{
+    max-width: 500%;
+    max-height: 300px;  
+}
+
+/*@media only screen and (max-width: 600px) {
+    for tablets 
+    .logo{
+        max-width: 90%;
+        max-height: 300px; 
+      }
+  }
+
+  @media only screen and (max-width: 768px) {
+    for desktop 
+    .logo{
+        max-width: 90%;
+        max-height: 300px; 
+      
+    }
+  }*/
+
+  
+  button{
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    background: #f3ecee;
+    color: rgba(122, 91, 3, 0.986);
+    cursor: pointer;
+  }
