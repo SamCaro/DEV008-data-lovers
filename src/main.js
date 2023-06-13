@@ -3,16 +3,11 @@ import filters from "./data.js";
 
 //Obteniedo el elemento section, donde va a estar todas las fichas
 const listChampions = document.querySelector("#listChampions");
+//const listDifficulty = document.querySelector(".list-champion-difficulty-dropdown")
 // Forma refactorizada de la variable 'champions' para acceder a los objetos de la data
 const champions = Object.values(data.data);
-console.log(champions);
+console.log(champions)
 // Acceder a los objetos de la data por la variable 'champions'
-/*const champions = [];
-for (const prop in data.data) {
-  const championProp = data.data[prop]
-  champions.push(championProp);
-}*/
-
 const showAllChampions = (data) => {
   listChampions.innerHTML = "";
   data.forEach((element) => {
@@ -28,10 +23,11 @@ const showAllChampions = (data) => {
 `;
   });
 };
-showAllChampions(champions);
+//Mostrar todos los personajes
+const allChampions = document.getElementById("champion");
+allChampions.addEventListener('click', () => showAllChampions(champions))
 //Mostrar personajes según su rol
 const roles = document.querySelectorAll(".role-dropdown-menu");
-console.log(roles);
 const arrayRoles = Array.from(roles);
 let idElement = "";
 arrayRoles.forEach((e) => {
@@ -39,7 +35,6 @@ arrayRoles.forEach((e) => {
     idElement = e.id;
     const chosenRole = filters.filterRole(champions, idElement);
     showAllChampions(chosenRole);
-    console.log(chosenRole);
   });
 });
 //Mostrar personaje según su nombre
@@ -48,19 +43,46 @@ input.addEventListener("change", (e) => {
   const inputValue = e.target.value;
   const searchName = filters.filterName(champions, inputValue);
   showAllChampions(searchName);
-  console.log(searchName);
 });
-//Mostrar ordenado dentro de cada dificultad
+//Mostrar su dificultad ordenadamente
 const difficulty = document.querySelectorAll(".champion-difficulty-dropdown");
-console.log(difficulty);
 difficulty.forEach((e) => {
-  const levelDifficulty = e.id;
   e.addEventListener("click", () => {
-    const chosenDifficulty = filters.sortDifficulty(champions, levelDifficulty);
+    const levelDifficulty = e.id;
+    console.log(levelDifficulty)
+    const sortedChampions = filters.sortDifficulty(champions)
+    const chosenDifficulty = filters.filterDifficulty(sortedChampions, levelDifficulty);
+    const totalResult = filters.statsDifficulty(champions, chosenDifficulty);
     showAllChampions(chosenDifficulty);
-    console.log(chosenDifficulty);
   });
 });
+//Mostrar porcentaje de barras
+const barLow = document.getElementById("bar_low")
+const barMedium = document.getElementById("bar_medium")
+const barHigh = document.getElementById("bar_high")
+const textLow = document.querySelector("#text-low");
+const textMedium = document.querySelector("#text-medium");
+const textHigh = document.querySelector("#text-high");
+difficulty.forEach((e) => {
+  const levelDifficulty = e.id;
+  const chosenDifficulty = filters.filterDifficulty(champions, levelDifficulty);
+  const totalResult = filters.statsDifficulty(champions, chosenDifficulty);
+  if (levelDifficulty === "low") {
+    barLow.value = totalResult;
+    textLow.innerHTML = `${totalResult}%`;
+  } else if (levelDifficulty === "medium") {
+    barMedium.value = totalResult;
+    textMedium.innerHTML = `${totalResult}%`;
+  } else {
+    barHigh.value = totalResult;
+    textHigh.innerHTML = `${totalResult}%`;
+  }
+  console.log(totalResult)
+})
+
+
+
+
 
 // Repasar
 // ¿Que son las variables y como se utilizan?
