@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>LEAGUE OF LEGENDS</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/231c660695.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!--Primera pantalla-->
+  <section class="primeraPantalla">
+    <article class="flexbox">
+      <img
+        src="Img/Logo.png"
+        alt="Logotipo league og legends"
+        class="logo"
+        display="flex"
+      />
+      <i
+        class="iconoInicio fa-solid fa-chevron-down fa-beat-fade"
+        style="color: #785a28"
+      ></i>
+      <i
+        class="iconoInicio fa-solid fa-chevron-down fa-beat-fade"
+        style="color: #785a28"
+      ></i>
+    </article>
+  </section>
+  <!--Segunda pantalla-->
+  <section class="segundaPantalla" id="segundaPantalla">
+    <nav class="navegacion">
+      <ul>
+        <li><button class="btn-menu" id="sign-in">Sing In</button></li>
+        <li><button class="btn-menu" id="news">News</button></li>
+        <li><button class="btn-menu" id="community">Community</button></li>
+        <li><button class="btn-menu" id="support">Support</button></li>
+        <li><button class="btn-menu" id="champions">Champions</button></li>
+        <li>
+          <button class="btn-menu" id="role">Role</button>
+          <ul class="list-role-dropdown-menu">
+            <li class="role-dropdown-menu" id="Assassin">Asesinos</li>
+            <li class="role-dropdown-menu" id="Fighter">Luchadores</li>
+            <li class="role-dropdown-menu" id="Mage">Magos</li>
+            <li class="role-dropdown-menu" id="Marksman">Tiradores</li>
+            <li class="role-dropdown-menu" id="Support">Soportes</li>
+            <li class="role-dropdown-menu" id="Tank">Tanques</li>
+          </ul>
+        </li>
+        <li>
+          <button class="btn-champion-difficulty-dropdown" id="difficulty">Difficulty</button>
+     
+          <ul class="list-champion-difficultdropdown animacion" >
+            <li class="champion-difficulty-dropdown" id="low">Low</li>
+            <div class="progress-wrapper">
+              <progress class="level-difficulty .progress-bar" max="10" value="3"></progress>
+              <span class="progress-text">3%</span>
+            </div>            
+            <li class="champion-difficulty-dropdown" id="medium">Medium</li>
+            <div class="progress-wrapper">
+              <progress class="level-difficulty .progress-bar" max="10" value="6"></progress>
+              <span class="progress-text">6%</span>
+            </div>                
+            <li class="champion-difficulty-dropdown" id="high">High</li>
+            <div class="progress-wrapper">
+              <progress class="level-difficulty .progress-bar" max="10" value="9"></progress>
+              <span class="progress-text">9%</span>
+            </div>          
+          </ul>
+
+        </li>
+        <input type="search" id="search" placeholder="Search" />
+      </ul>
+    </nav>
+    <main>
+      <section class="champions-container">
+        <section class="champions-container-grid" id="listChampions">
+        </section>
+      </section>
+    </main>
+  </section>
+  <div id="root"></div>
+  <script src="main.js" type="module"></script>
+</body>
+</html>

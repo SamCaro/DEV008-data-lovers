@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body {
+    background-image: url('Img/Background.png');
+    height: 100%;
+    width: 100%;
+}
+
+.flexbox {
+    display: flex;
+    /*alinear elementos horizontalmente*/
+    flex-direction: column;
+    /*los elementos se posicionan verticalmente*/
+    align-items: center;
+    /* centar*/
+    padding: 20%;
+}
+
+.iconoInicio {
+    font-size: 100px;
+}
+
+.logo {
+    max-width: 500%;
+    max-height: 300px;
+}
+
+.champions-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    width: 30rem;
+}
+
+.champion-card .container-name {
+    z-index: 0;
+    background-color: black;
+    color: rgba(122, 91, 3, 0.986);
+}
+
+.champion-card Img {
+    z-index: 0;
+    position: relative;
+    display: flex;
+    width: 30rem;
+    height: 542px;
+    object-fit: cover;
+}
+
+.btn-menu {
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    background: #f3ecee;
+    color: rgba(122, 91, 3, 0.986);
+    max-width: 100px;
+}
+
+input {
+    max-width: 100px;
+}
+
+
+.btn-champion-difficulty-dropdown {
+    width: 20%;
+    }
+
+.progress-wrapper {
+    position: relative;
+  }
+  
+  .progress-text {
+    position: absolute;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+  }
+  
+  div {
+    width: 100px;
+    height: 100px;
+    transition: width 2s;
+  }
+  
+  div:hover {
+    width: 200px;
+  }
