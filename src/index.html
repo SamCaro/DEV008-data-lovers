@@ -1,47 +1,137 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>League of Legends</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/231c660695.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Hola</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://kit.fontawesome.com/231c660695.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <!--Primera pantalla-->
-  <section class="primeraPantalla">
-    <article class="flexbox">
-      <img src="Img/Logo.png" alt="Logotipo league og legends" class="logo" display="flex">
-      <i class=" iconoInicio fa-solid fa-chevron-down fa-beat-fade fa-2xl" style="color: #785a28;"></i>
-    </article>
+  <body>
+    <!--Primera pantalla-->
+    <section class="primeraPantalla">
+      <article class="flexbox">
+        <img
+          src="Img/Logo.png"
+          alt="Logotipo league og legends"
+          class="logo"
+          display="flex"
+        />
+        <i
+          class="iconoInicio fa-solid fa-chevron-down fa-beat-fade"
+          style="color: #785a28"
+        ></i>
+        <i
+          class="iconoInicio fa-solid fa-chevron-down fa-beat-fade"
+          style="color: #785a28"
+        ></i>
+      </article>
+    </section>
     <!--Segunda pantalla-->
     <section class="segundaPantalla" id="segundaPantalla">
-      <nav>
+      <nav class="navegacion">
         <ul>
-          <li><button class="btn-sign" id="sign-in">Sing In</button></li>
-          <li><button class="btn-menu-news" id="news">News</button></li>
-          <li><button class="btn-menu-community" id="community">Community</button></li>
-          <li><button class="btn-menu-support" id="support">Support</button></li>
-          <li><button class="btn-menu-champion" id="champion">Champion</button></li>
-          <li><button class="btn-menu-rol" id="rol">Rol</button></li>
-          <li><input type="text" id="search" placeholder="Search"></li>
+          <!-- Version #2 -->
+          <!-- <li class="menu_item">
+          <div class="menu_btn">
+            <a href="https://signup.leagueoflegends.com/en-gb/signup/index">Sign In</a>
+          </div>
+        </li>
+        <li class="menu_item">
+          <div class="menu_btn">
+            <a href="https://www.leagueoflegends.com/es-es/news/">News</a>
+          </div>
+        </li>
+        <li class="menu_item">
+          <div class="menu_btn">
+            <a href="https://www.leagueoflegends.com/es-es/news/community/">Community</a>
+          </div>
+        </li>
+        <li class="menu_item">
+          <div class="menu_btn">
+            <a href="https://support.riotgames.com/hc/es-419">Support</a>
+          </div>
+        </li>
+        <li class="menu_item">
+          <div class="menu_btn"><a href="#">Champion</a></div>
+        </li>
+        <li class="menu_item">
+          <div class="menu_btn"><a href="#">Roles</a></div>
+          <ul class="list_dropdown_menu">
+            <li class="inside-dropdown-menu" id="Assassin">Assassins</li>
+            <li class="inside-dropdown-menu" id="Fighter">Fighters</li>
+            <li class="inside-dropdown-menu" id="Mage">Mages</li>
+            <li class="inside-dropdown-menu" id="Marksman">Marksmen</li>
+            <li class="inside-dropdown-menu" id="Support">Supports</li>
+            <li class="inside-dropdown-menu" id="Tank">Tanks</li>
+          </ul>
+        </li>
+        <li class="menu_item">
+          <div class="menu_btn"><a href="#">Difficulty</a></div>
+          <ul class="list_dropdown_menu">
+            <li class="inside-dropdown-menu" id="low"><a>Low</a></li>
+            <li class="inside-dropdown-menu" id="medium">
+              <a>Medium</a>
+            </li>
+            <li class="inside-dropdown-menu" id="high">
+              <a>High</a>
+            </li>
+          </ul>
+        </li> -->
+          <!-- Version #1 -->
+          <li><button class="btn-menu" id="Sign In">Sign In</button></li>
+          <li><button class="btn-menu" id="news">News</button></li>
+          <li><button class="btn-menu" id="community">Community</button></li>
+          <li><button class="btn-menu" id="support">Support</button></li>
+          <li><button class="btn-menu" id="champion">Champion</button></li>
+          <li>
+            <button class="btn-menu" id="role">Role</button>
+            <ul class="list-role-dropdown-menu">
+              <li class="role-dropdown-menu" id="Assassin">Asesinos</li>
+              <li class="role-dropdown-menu" id="Fighter">Luchadores</li>
+              <li class="role-dropdown-menu" id="Mage">Magos</li>
+              <li class="role-dropdown-menu" id="Marksman">Tiradores</li>
+              <li class="role-dropdown-menu" id="Support">Soportes</li>
+              <li class="role-dropdown-menu" id="Tank">Tanques</li>
+            </ul>
+          </li>
+          <li>
+            <!-- <button class="btn-menu" id="difficulty">Difficulty</button> -->
+            <ul class="list-champion-difficulty-dropdown">
+              <li class="champion-difficulty-dropdown" id="low"><a>Low</a></li>
+              <li class="champion-difficulty-dropdown" id="medium">
+                <a>Medium</a>
+              </li>
+              <li class="champion-difficulty-dropdown" id="high">
+                <a>High</a>
+              </li>
+              Difficulty
+            </ul>
+          </li>
+          <input type="search" id="search" placeholder="Search" />
+          <!-- <div id="loupe">X</div> -->
+          <!-- <input type="text" id="input" name="input" placeholder="Search" /> -->
         </ul>
       </nav>
       <main>
-         <section class="champions" id="listChampions">
-          <!--<article class="champion-sheet">
-            <img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt80ff58fe809777ff/5db05fa8adc8656c7d24e7d6/RiotX_ChampionList_akali.jpg" alt="Akali">
-            <div class="container-name">
-              <h2 class="champion-name">Akali</h2>
-              <p class="champion-key">#084</p>
-            </div>
-          </article>-->
+        <section class="champions-container">
+          <section class="champions-container-grid" id="listChampions">
+            <!--<article class="champion-card">
+              <img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt80ff58fe809777ff/5db05fa8adc8656c7d24e7d6/RiotX_ChampionList_akali.jpg" alt="Akali">
+              <div class="container-name">
+                <h2 class="champion-name">Akali</h2>
+                <p class="champion-key">#084</p>
+              </div>
+            </article>-->
+          </section>
         </section>
-      </main>    
+      </main>
     </section>
     <div id="root"></div>
     <script src="main.js" type="module"></script>
-</body>
-
+  </body>
 </html>
