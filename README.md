@@ -4,13 +4,13 @@ Este proyecto permite al usuario encontrar, obtener e indagar informacion sobre 
 
 # Investigacion UX
 ## 1. Historias de Usuario y Criterios de aceptacion
+![image 3](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/29d40fe0-24eb-4407-b562-fb585c8a6faa)
+![image 4](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/7f6c5456-b5cb-4f25-82a2-c0c4a87b0b8c)
+![image 5](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/7de0ac7e-ad0b-44c5-8592-3257d83e21b7)
+![image 6](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/2fe4f230-3130-40f2-9d07-60985d93155a)
 
-![Screenshot_20230524_080709](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/aa81fb37-17a3-4977-a285-057d4cf5a149)
-![Screenshot_20230524_080607](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/0360afd6-e3ec-4a4c-a7c5-677da07c2726)
-![Screenshot_20230524_080629](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/c29dbe3e-16d4-4343-8052-e77147094f00)
-![Screenshot_20230524_080421](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/2269b643-fe85-437a-8602-69aa15ea2c86)
-![Screenshot_20230524_080500](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/9c190d0d-820e-44f2-af16-aeb0c97edbc4)
-![Screenshot_20230524_080514](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/fbc5e651-4e67-474a-8a1c-d843c6f378af)
+
+
 
 ## 2. UI Diseño de la Interfaz de Usuario 
 
