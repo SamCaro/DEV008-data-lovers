@@ -3,7 +3,13 @@
 Este proyecto permite al usuario encontrar, obtener e indagar informacion sobre League of Legends, un esports de estrategia multiplayer.
 
 # Investigacion UX
-## 1. Historias de Usuario y Criterios de aceptacion
+## 1. Planning
+
+El planning contiene una lista de pasos detallada con el MVP (Producto Mínimo Viable) y la planificacion previa del proyecto. 
+
+![Alt Planning](Img/planning.png)
+
+## 2. Historias de Usuario y Criterios de aceptacion
 
 ![Alt Historia 1](<Img/Historia 1.png>)
 ![Alt Historia 2](<Img/Historia 2.png>)
@@ -14,7 +20,7 @@ Este proyecto permite al usuario encontrar, obtener e indagar informacion sobre 
 ![Alt Historia 7](<Img/Historia 7.png>)
 ![Alt Historia 9](<Img/Historia 9.png>)
 
-## 2. UI Diseño de la Interfaz de Usuario 
+## 3. UI Diseño de la Interfaz de Usuario 
 
 🔸Prototipo de baja fidelidad 
 
@@ -22,8 +28,8 @@ Los bocetos realizados son en base a la opinion de usuarios para proporcionar la
 
 https://www.figma.com/file/pY6lYFKRL5IbeTae58ePR2/League-of-Legends-team-library?type=design&node-id=0-1&t=W2fgLNZGs8YJF5Uv-0
 
-![Group 2 (3)](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/da562a3d-7e51-4f93-b4ca-c67f527bb93d)
-![Group 1](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/5591077d-b3b2-4b5e-8505-804592235f53)
+![Alt Baja Fidelidad](<Img/Baja Fidelidad 1.png>)
+![Alt Baja Fidelidad](<Img/Baja Fidelidad 2.png>)
 
 ***
 
@@ -33,15 +39,25 @@ Uso de Figma para creacion de diseño como primer prototipo.
 
 https://www.figma.com/file/pY6lYFKRL5IbeTae58ePR2/League-of-Legends-team-library?type=design&node-id=1928-7&t=1eiSMjalcLZXZQPO-0
 
-![Intro](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/63fc1041-c229-45d7-a75e-7dbec8b51e62)
-![Ficha de personaje #2](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/ec95f4b9-8ca5-4032-9f3b-2ab5f14fa555)
-![Ficha de personaje](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/1822afa9-275a-4350-b840-c69bd57dca7a)
-![Group 4](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/ae3e17cf-f5c1-496d-a814-c00b3ebd23d0)
-![Search #1](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/2af1207f-05db-4dac-aa2a-b15f90f1d0e2)
-
+![Alt Fondo de pantalla](Img/Fondo.png)
+![Alt Menu principal](<Img/menu pricipal.png>)
+![Alt Ficha de personaje](<Img/Ficha de personaje.png>)
 
 ***
-Link a nuestra web:
 
-Laboratoria DEV008 - Carolyn Yaker & Sam Caro - 2023
+## 4. Pruebas unitarias
+
+Los test son realizados con la libreria Jest para las funciones: "filters", "filterName", "filterRole", "filterDifficulty" para filtrar los personajes segun su nombre, rol y dificultad, la funcion: "sortDifficulty" para ordenar la data y la funcion: "statsDifficulty" para calcular estadisticas.
+
+## 5. Compute Stats
+
+Se visualizan tres barras dinamicas con un set de datos, en ellos se calcula la estadistica en porcentajes de los personajes pertenecientes a los diferentes niveles de dificultad: "low" (baja), "medium" (media) y "high" (alta).
+
+## 6. Responsive Desing
+
+Esta pagina web es receptiva a diferentes tamaños y resoluciones de pantalla como dispositivos moviles y tabletas.
+
+***
+Laboratoria DEV008 - Carolyn Yaker & Sandra Caro - 2023
+***
 
