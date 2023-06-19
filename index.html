@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>League of Legends</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/231c660695.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!--Primera pantalla-->
+    <section class="primeraPantalla">
+      <article class="pantallaInicio">
+        <img
+          src="Img/Logo.png"
+          alt="Logotipo league og legends"
+          class="logo"
+          display="flex"
+        />
+        <i
+          class="iconoInicio fa-solid fa-chevron-down fa-beat-fade"
+          style="color: #785a28"
+        ></i>
+        <i
+          class="iconoInicio fa-solid fa-chevron-down fa-beat-fade"
+          style="color: #785a28"
+        ></i>
+      </article>
+    </section>
+    <!--Segunda pantalla-->
+    <section class="segundaPantalla" id="segundaPantalla">
+      <nav class="nav">
+        <a class="logo__icon" href="#segundaPantalla">
+          <img class="logo__nav" src="Img/LOL_Icon.png" />
+        </a>
+        <ul class="menu">
+          <li class="menu__item">
+            <div class="menu__btn">
+              <a
+                class="link"
+                href="https://signup.leagueoflegends.com/en-gb/signup/index"
+                >Sign In</a
+              >
+            </div>
+          </li>
+          <li class="menu__item">
+            <div class="menu__btn">
+              <a class="link" href="https://www.leagueoflegends.com/es-es/news/"
+                >News</a
+              >
+            </div>
+          </li>
+          <li class="menu__item">
+            <div class="menu__btn">
+              <a
+                class="link"
+                href="https://www.leagueoflegends.com/es-es/news/community/"
+                >Community</a
+              >
+            </div>
+          </li>
+          <li class="menu__item">
+            <div class="menu__btn">
+              <a class="link" href="https://support.riotgames.com/hc/es-419"
+                >Support</a
+              >
+            </div>
+          </li>
+          <li class="menu__item">
+            <div class="menu__btn" id="champion">
+              <a class="link" href="#">Champion</a>
+            </div>
+          </li>
+          <li class="menu__item">
+            <div class="menu__btn menu_btn--click">
+              <a class="link" href="#segundaPantalla">Roles</a>
+            </div>
+            <ul class="menu__list-dropdown">
+              <li class="menu__inside menu__inside--rol" id="Assassin">
+                <a class="link link--inside" href="#segundaPantalla"
+                  >Assassins</a
+                >
+              </li>
+              <li class="menu__inside menu__inside--rol" id="Fighter">
+                <a class="link link--inside" href="#segundaPantalla"
+                  >Fighters</a
+                >
+              </li>
+              <li class="menu__inside menu__inside--rol" id="Mage">
+                <a class="link link--inside" href="#segundaPantalla">Mages</a>
+              </li>
+              <li class="menu__inside menu__inside--rol" id="Marksman">
+                <a class="link link--inside" href="#segundaPantalla"
+                  >Marksmen</a
+                >
+              </li>
+              <li class="menu__inside menu__inside--rol" id="Support">
+                <a class="link link--inside" href="#segundaPantalla"
+                  >Supports</a
+                >
+              </li>
+              <li class="menu__inside menu__inside--rol" id="Tank">
+                <a class="link link--inside" href="#segundaPantalla">Tanks</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu__item">
+            <div class="menu__btn menu__btn--click">
+              <a class="link" href="#segundaPantalla">Difficulty</a>
+            </div>
+            <ul class="menu__list-dropdown">
+              <li class="menu__inside menu__inside--difficulty" id="low">
+                <a class="link link--inside" href="#segundaPantalla"
+                  >Low
+                  <div class="progress">
+                    <progress
+                      id="bar-low"
+                      class="progress__bar"
+                      max="100"
+                      value="20"
+                    ></progress>
+                    <span id="text-low" class="progress__text">10</span>
+                  </div>
+                </a>
+              </li>
+              <li class="menu__inside menu__inside--difficulty" id="medium">
+                <a class="link link--inside" href="#segundaPantalla"
+                  >Medium
+                  <div class="progress">
+                    <progress
+                      id="bar-medium"
+                      class="progress__bar"
+                      max="100"
+                      value=""
+                    ></progress>
+                    <span id="text-medium" class="progress__text">10</span>
+                  </div>
+                </a>
+              </li>
+              <li class="menu__inside menu__inside--difficulty" id="high">
+                <a class="link link--inside" href="#segundaPantalla"
+                  >High
+                  <div class="progress">
+                    <progress
+                      id="bar-high"
+                      class="progress__bar"
+                      max="100"
+                      value=""
+                    ></progress>
+                    <span id="text-high" class="progress__text">10</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <div class="search">
+            <input type="search" id="search" placeholder="Search" />
+            <button type="submit">
+              <i
+                class="fa-solid fa-magnifying-glass"
+                style="color: #785a28"
+              ></i>
+            </button>
+          </div>
+          <div class="clearfix"></div>
+        </ul>
+      </nav>
+      <main>
+        <section class="champions-container">
+          <section
+            class="champions-container-grid"
+            id="listChampions"
+          ></section>
+        </section>
+      </main>
+    </section>
+    <div id="root"></div>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
