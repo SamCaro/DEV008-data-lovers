@@ -10,14 +10,15 @@ El planning contiene una lista de pasos detallada con el MVP (Producto Mínimo V
 
 ## 2. Historias de Usuario y Criterios de aceptacion
 
-[Historia 7 (1)](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/bed95916-2675-48f5-907a-cebdc2d7498d)
-![Historia 9 (1)](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/b370b99b-8518-4412-b8fc-542027faba02)
-![Historia 1 (1)](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/18de34f7-797b-4ba9-bbe1-7d2b17ce5215)
-![Historia 2 (1)](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/42376cf2-71b9-44d5-8f04-6833e3ea8d96)
-![Historia 3 (1)](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/ab1deb24-f593-4bb8-b178-a47ee4aa06a0)
-![historia 4 (1)](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/582d6fa1-e8b2-4982-9da8-a5fe5428fdd9)
-![Historia 5 (1)](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/ac28b24a-5df3-4a41-a32c-0cf95bc01b87)
-![Historia 6 (1)](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/b249552a-e0f9-4925-99f5-08ff09f5614c)
+![Historia 1](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/9a2b7da3-1c10-4ca0-9dd4-4eae76547993)
+![Historia 2](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/b8b24dc7-e903-4766-bf48-795067a9620d)
+![Historia 3](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/b1e15f22-47b1-4ec6-9fdb-2560a0d3ceed)
+![historia 4](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/5332def2-0687-4ec6-9840-9ede4511fe0a)
+![Historia 5](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/d4e6882b-519b-468b-bd23-8a0b1c1158a4)
+![Historia 6](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/813a2a85-db27-443b-aa41-7501cfeb825f)
+![Historia 7](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/d4e0add7-0cf4-4d24-a16a-e19f4f85eec7)
+![Historia 9](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/8e2f8083-e428-4ec7-8e58-55d93e78183a)
+
 
 
 ## 3. UI Diseño de la Interfaz de Usuario 
