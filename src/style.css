@@ -6,8 +6,13 @@
     
 }
 
+@font-face {
+    font-family: BeaufortforLOL;
+    src: url(fonts/BeaufortforLOL-Medium.ttf);
+}
 
 body{
+    font-family: BeaufortforLOL, Verdana, Geneva, Tahoma, sans-serif;
     background-image: url('Img/Background.png');
     /*background-size: cover;*/
     height: 100%;
@@ -17,7 +22,7 @@ body{
 
 }
 
-.flexbox{
+.pantallaInicio{
     display: flex; /*alinear elementos horizontalmente*/
     flex-direction: column; /*los elementos se posicionan verticalmente*/
     align-items: center; /* centrar*/
@@ -33,24 +38,154 @@ body{
     max-height: 300px;  
 }
 /* Estilo de la barra de navegación */
-.navegacion{
-    margin: auto;
-    display: flex;
+.nav {
+    width: 100%;
+    height: 80px;
+    padding: 0 20px;
+    background-color: rgb(1, 10, 19);
 
 }
-.navegacion ul{
-    display: flex;
-    align-items: center;
-    margin: auto;
+
+.logo__icon {
+    display: block;
+    position: absolute;
+    margin: 3px 37px 0;
+    width: 69px;
 }
-.role-dropdown-menu{
-    margin: auto;
-    border-radius: 5px;
-    padding: .5rem 1rem;
-    background: #f3ecee;
-    color: rgba(122, 91, 3, 0.986);
+
+.logo__nav {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.menu {
+
+    margin: 0px auto;
+    width: 80%;
+    text-decoration: none;
+    /* border: 1px solid white */
+}
+
+.menu__item {
+    /* display: block; */
+    float: left;
+    font-size: 22px;
+    list-style: none;
+    line-height: 60px;
     cursor: pointer;
+}
 
+.menu__item:hover {
+    background-color: rgb(30, 40, 45);
+}
+
+.menu__btn {
+    /*no estaba esta propiedad*/
+    display: inline-block;
+    text-align: center;
+    padding: 0.1em 0.4em;
+    margin: 0 0.4em;
+    border-bottom: 3px solid #785A28;
+}
+
+.menu__list-dropdown {
+    display: none;
+    position: absolute;
+    margin-top: 14px;
+    z-index: 1;
+    list-style: none;
+    text-align: left;
+    width: 12%;
+
+}
+
+.menu__item:hover .menu__list-dropdown {
+    display: block;
+}
+
+.menu__inside {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 0 1em;
+}
+
+.link {
+    display: block;
+    text-decoration: none;
+    color: #F0E6D2;
+
+}
+
+.link--inside {
+    color: #454545;
+    font-size: 18px;
+    padding: 8px 0;
+    line-height: 25px;
+}
+
+.menu__inside:hover {
+    background: #F4F4F4;
+}
+
+.progress__bar {
+    max-width: 130px;
+    border-radius: 10px;
+
+}
+
+.progress__bar::-webkit-progress-bar {
+    max-width: 130px;
+    border-radius: 10px;
+    background-color: #e8e7e7;
+}
+
+.progress__bar::-webkit-progress-value {
+    border-radius: 10PX 0px 0PX 10PX;
+    background-color: #11b8eb;
+}
+
+
+.progress__bar,
+.progress__text {
+    display: block;
+}
+
+.search {
+    float: right;
+}
+
+input[type="search"] {
+    padding: 12px;
+    font-size: 17px;
+    border: none;
+    width: 18rem;
+    margin-top: 18px;
+
+}
+
+.search button {
+    float: right;
+    padding: 12px;
+    font-size: 17px;
+    border: none;
+    margin-top: 18px;
+    background-color: #FFFF;
+
+}
+
+.progress__bar {
+    max-width: 215px;
+
+}
+
+.progress__text {
+    font-size: 70%;
+}
+
+
+.clearfix {
+    float: none;
+    clear: both;
 }
 /* Estilo del contenedor de personajes */
 .champions-container{
@@ -69,9 +204,7 @@ body{
 /* Estilo de la imagen */
 .champion-card Img{
     width: 30rem;
-    height: 100%;
-    z-index: 0;
-    position: relative;
+    height: 33.9rem;
     display: flex;
     object-fit: cover;
 /* max-width: 20rem;

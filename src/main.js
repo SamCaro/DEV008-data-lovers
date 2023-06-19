@@ -13,11 +13,11 @@ const showAllChampions = (data) => {
   data.forEach((element) => {
     listChampions.innerHTML += `
     <article class='champion-card'>
+  <div class="champion-img">
   <img src=${element.img} alt=${element.name}>
+  </div>
   <div class="container-name">
     <h2 class="champion-name">${element.name}</h2>
-    <p class="champion-key">${element.key}</p>
-    <p class="champion-difficulty">${element.info.difficulty}</p>
   </div>
   </article>
 `;
@@ -27,7 +27,7 @@ const showAllChampions = (data) => {
 const allChampions = document.getElementById("champion");
 allChampions.addEventListener('click', () => showAllChampions(champions))
 //Mostrar personajes según su rol
-const roles = document.querySelectorAll(".role-dropdown-menu");
+const roles = document.querySelectorAll(".menu__inside--rol");
 const arrayRoles = Array.from(roles);
 let idElement = "";
 arrayRoles.forEach((e) => {
@@ -45,7 +45,7 @@ input.addEventListener("change", (e) => {
   showAllChampions(searchName);
 });
 //Mostrar su dificultad ordenadamente
-const difficulty = document.querySelectorAll(".champion-difficulty-dropdown");
+const difficulty = document.querySelectorAll(".menu__inside--difficulty");
 difficulty.forEach((e) => {
   e.addEventListener("click", () => {
     const levelDifficulty = e.id;
@@ -57,9 +57,9 @@ difficulty.forEach((e) => {
   });
 });
 //Mostrar porcentaje de barras
-const barLow = document.getElementById("bar_low")
-const barMedium = document.getElementById("bar_medium")
-const barHigh = document.getElementById("bar_high")
+const barLow = document.getElementById("bar-low")
+const barMedium = document.getElementById("bar-medium")
+const barHigh = document.getElementById("bar-high")
 const textLow = document.querySelector("#text-low");
 const textMedium = document.querySelector("#text-medium");
 const textHigh = document.querySelector("#text-high");
