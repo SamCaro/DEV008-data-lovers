@@ -24,9 +24,8 @@ El planning contiene una lista de pasos detallada con el MVP (Producto Mínimo V
 
 🔸Prototipo de baja fidelidad 
 
-Los bocetos realizados son en base a la opinion de usuarios para proporcionar la informacion mas util y primoldial respecto al contenido del juego y tomar esto como analisis de partida.
-
-https://www.figma.com/file/pY6lYFKRL5IbeTae58ePR2/League-of-Legends-team-library?type=design&node-id=0-1&t=W2fgLNZGs8YJF5Uv-0
+Los bocetos realizados son en base a la opinion de usuarios para proporcionar la informacion mas util y primoldial respecto al contenido del juego y tomar esto como analisis de partida. 
+Puedes visualizarlos [aqui](https://www.figma.com/file/pY6lYFKRL5IbeTae58ePR2/League-of-Legends-team-library?type=design&node-id=0-1&t=W2fgLNZGs8YJF5Uv-0)
 
 ![Alt Baja Fidelidad](<Img/Baja Fidelidad 1.png>)
 ![Alt Baja Fidelidad](<Img/Baja Fidelidad 2.png>)
@@ -35,9 +34,8 @@ https://www.figma.com/file/pY6lYFKRL5IbeTae58ePR2/League-of-Legends-team-library
 
 🔸Prototipo de alta fidelidad 
 
-Uso de Figma para creacion de diseño como primer prototipo.
-
-https://www.figma.com/file/pY6lYFKRL5IbeTae58ePR2/League-of-Legends-team-library?type=design&node-id=1928-7&t=1eiSMjalcLZXZQPO-0
+Uso de Figma para creacion de diseño como primer prototipo. 
+Puedes visualizarlos [aqui](https://www.figma.com/file/pY6lYFKRL5IbeTae58ePR2/League-of-Legends-team-library?type=design&node-id=1928-7&t=1eiSMjalcLZXZQPO-0)
 
 ![Alt Fondo de pantalla](Img/Fondo.png)
 ![Alt Menu principal](<Img/menu pricipal.png>)

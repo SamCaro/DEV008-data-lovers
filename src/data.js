@@ -30,28 +30,4 @@ const filters = {
   }
 }
 
-
 export default filters;
-
-
-
-
-
-
-
-
-//Filtrar los personajes por dificultad
-
-// (object, modeDifficulty) => {
-//  const levelDifficulty = [...object].map(function (obj) {
-//  const level = obj.info.difficulty;
-//   if (modeDifficulty === "low") {
-//     return level >= 1 && level <= 4;
-//   } else if (modeDifficulty === "medium") {
-//     return level >= 5 && level <= 7;
-//   }
-//     return level >= 8 && level <= 10;
-//   }
-// });
-// return levelDifficulty
-
