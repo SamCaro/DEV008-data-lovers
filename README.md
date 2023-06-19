@@ -4,13 +4,6 @@ Este proyecto permite al usuario encontrar, obtener e indagar informacion sobre 
 
 # Investigacion UX
 ## 1. Historias de Usuario y Criterios de aceptacion
-![image 3](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/29d40fe0-24eb-4407-b562-fb585c8a6faa)
-![image 4](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/7f6c5456-b5cb-4f25-82a2-c0c4a87b0b8c)
-![image 5](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/7de0ac7e-ad0b-44c5-8592-3257d83e21b7)
-![image 6](https://github.com/SamCaro/DEV008-data-lovers/assets/131512250/2fe4f230-3130-40f2-9d07-60985d93155a)
-
-
-
 
 ## 2. UI Diseño de la Interfaz de Usuario 
 
