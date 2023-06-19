@@ -80,11 +80,3 @@ difficulty.forEach((e) => {
   console.log(totalResult)
 })
 
-
-
-
-
-// Repasar
-// ¿Que son las variables y como se utilizan?
-// Leer (sobre variables): https://www.freecodecamp.org/espanol/news/var-let-y-const-cual-es-la-diferencia/
-// Leer operadores: https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_operators
