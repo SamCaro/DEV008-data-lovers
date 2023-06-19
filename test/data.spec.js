@@ -1,15 +1,17 @@
+//importamos el objeto `data`, que contiene las funciones `nombre-de-nuestra-funcion` y `maskify`//
+import { expect } from "@jest/globals";
 import filters from "../src/data.js";
 import data from "../src/data/lol/lol.js";
 
 describe("filters", () => {
   it("should be a object", () => {
-    //console.log(filters);
+    console.log(filters);
     expect(typeof filters).toBe("object");
   });
   const champions = Object.values(data.data);
   describe("filterRole", () => {
     it("should be a function", () => {
-      // console.log(filters.filterRole);
+      console.log(filters.filterRole);
       expect(typeof filters.filterRole).toBe("function");
     });
     it('should be a new array with "Mage"', () => {
