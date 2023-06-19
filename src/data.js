@@ -1,79 +1,57 @@
-//import { template } from "@babel/core";
-
-
-export const filters = {
-
+const filters = {
+  //Filtrar personajes por roles
   filterRole: (array, tag) => {
     return array.filter((object) => object.tags.includes(tag));
   },
+  // Filtra personjes por nombres
   filterName: (array, name) => {
     return array.filter((object) => object.name.includes(name));
   },
-};
-
-// ordenar Champions 
-export const sortDifficulty = (array) => {
-  return array.sort((a, b) => a.info.difficulty - b.info.difficulty);
-};
-
-
-//filtrar Dificultad y asignarle un nivel
-export function filterDifficulty(sortDifficulty, level) {
-  
-  if (level === "low") {
-    return sortDifficulty.filter((obj) => obj.info.difficulty <= 4);
+  // Filtra la dificultad según el personaje
+  filterDifficulty: (sortDifficulty, level) => {
+    if (level === "low") {
+      return sortDifficulty.filter((obj) => obj.info.difficulty <= 4);
+    }
+    else if (level === "medium") {
+      return sortDifficulty.filter((obj) => obj.info.difficulty > 4 && obj.info.difficulty <= 7);
+    }
+    return sortDifficulty.filter((obj) => obj.info.difficulty > 7);
+  },
+  // Ordena los personajes
+  sortDifficulty: (array) =>
+    array.sort((a, b) => {
+      return a.info.difficulty - b.info.difficulty;
+    }),
+  //Muestra la cantidad de personajes según la dificultad 
+  statsDifficulty: (array, chosenDifficulty) => {
+    const totalDifficulty = chosenDifficulty.length
+    const stats = Math.round((totalDifficulty / array.length) * 100);
+    return stats;
   }
-  else if (level === "medium") {
-    return sortDifficulty.filter((obj) => obj.info.difficulty > 4 && obj.info.difficulty <= 7);
-  }
-  return sortDifficulty.filter((obj) => obj.info.difficulty > 7);
-}
-
-///////////////PROMEDIO dificultad de todos los campeones ---> METODO REDUCE
-export function statsDifficulty(array, chosenDifficulty) { 
-  const total = chosenDifficulty.length;
-  return Math.round((total / array.length) * 100);
 }
 
 
+export default filters;
 
 
 
-///////////////PROMEDIO dificultad de cada uno los campeones ---> METODO REDUCE
-export function average(array) { 
-  const difficultyAverage = array.map((obj) => obj.info.difficulty); 
-  const sum = difficultyAverage.reduce((total, difficulty) => total + difficulty, 0);
-  return Math.round(sum / difficultyAverage.length);
-}
 
 
 
-///////////////PROMEDIO dificultad de cada uno los campeones ---> METODO forEach
-// export function average(filterDifficulty) {
-//   let sum = 0;
 
 
-//   filterDifficulty.forEach(function (obj) {
-//     sum += obj.info.difficulty;
-//   });
+//Filtrar los personajes por dificultad
 
-//   return Math.round(sum / filterDifficulty.length);
-// };
+// (object, modeDifficulty) => {
+//  const levelDifficulty = [...object].map(function (obj) {
+//  const level = obj.info.difficulty;
+//   if (modeDifficulty === "low") {
+//     return level >= 1 && level <= 4;
+//   } else if (modeDifficulty === "medium") {
+//     return level >= 5 && level <= 7;
+//   }
+//     return level >= 8 && level <= 10;
+//   }
+// });
+// return levelDifficulty
 
-/////////////////
-//////////////////
-
-
-
-// **tips 
-// *array de numeros 
-// *no se pueden comparar array con string 
-// includes = funcion de un array por eso lleva punto type.incluides
-// HTML <progress> barra 
-// template strem 
-
-// test para funciones de promedio
-// 1 que agrupe por cada nivel de dificultad 
-// 
-// 3 obtener los resultados por cada nivel 
-// 4 compare y siempre de como resultado numeros no string 
