@@ -1,4 +1,3 @@
-import { expect } from "@jest/globals";
 import filters from "../src/data.js";
 import data from "../src/data/lol/lol.js";
 

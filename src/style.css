@@ -6,25 +6,20 @@
 .primeraPantalla {
     height:100vh;
     width: 100vw;
-    /* width: 1920px;   */
     display: flex;  
-    justify-content: center;
-    align-items: center;
+    justify-content: center; 
     background-image: url('Img/Background .png');
     background-repeat: no-repeat;
 }
 
 .segundaPantalla {  
-  background-color: #2c0452;   
- 
+  background-color: #2c0452;    
 }
 
-.pantallaInicial { 
+.pantallaInicio { 
     display: flex; 
     flex-direction: column;
     align-items: center; 
-    justify-content: center; 
-    margin: 0;
 }
 
 .iconoInicio {
@@ -45,20 +40,21 @@ ul{
     align-items: center;
     justify-content: center;
      flex-wrap:wrap;
-     /* width: 100%; */
 }
+
 li{
     margin: 2rem 0;
     flex-wrap: wrap;
     padding: 2rem;
 }
+
 .role-dropdown-menu{
-    /* margin: auto; */
     border-radius: 5px;
     padding: 2rem;
     background: #f3ecee;
     color: rgba(122, 91, 3, 0.986);
 } 
+
 /* Estilo del contenedor de personajes */
 .champions-container{
     max-width: 60rem;
@@ -94,7 +90,6 @@ li{
     font-family: BeaufortforLOL-Bold;
     text-transform: uppercase;
     font-size: 15px; 
-    text-align: center;
 }
 
 button{
@@ -102,7 +97,6 @@ button{
     padding: .5rem 1rem;
     background: #f3ecee;
     color: rgba(122, 91, 3, 0.986);
-    cursor: pointer;
 }
 
 @media (max-width: 1080px) {  
