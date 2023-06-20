@@ -3,7 +3,6 @@ import filters from "./data.js";
 
 //Obteniedo el elemento section, donde va a estar todas las fichas
 const listChampions = document.querySelector("#listChampions");
-//const listDifficulty = document.querySelector(".list-champion-difficulty-dropdown")
 // Forma refactorizada de la variable 'champions' para acceder a los objetos de la data
 const champions = Object.values(data.data);
 // Acceder a los objetos de la data por la variable 'champions'
@@ -48,10 +47,8 @@ const difficulty = document.querySelectorAll(".menu__inside--difficulty");
 difficulty.forEach((e) => {
   e.addEventListener("click", () => {
     const levelDifficulty = e.id;
-    console.log(levelDifficulty)
     const sortedChampions = filters.sortDifficulty(champions)
     const chosenDifficulty = filters.filterDifficulty(sortedChampions, levelDifficulty);
-    const totalResult = filters.statsDifficulty(champions, chosenDifficulty);
     showAllChampions(chosenDifficulty);
   });
 });
