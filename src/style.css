@@ -15,9 +15,6 @@
 
 body {
   font-family: BeaufortforLOL-Bold, BeaufortforLOL, Verdana, Geneva, Tahoma, sans-serif;
-  /* background-image: url('Img/Background.png'); */
-  /* height: 100%;
-  width: 100%; */
 }
 
 .primeraPantalla {
@@ -225,12 +222,6 @@ input[type="search"] {
   width: 100%;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 2rem;
-}
-
-@media (max-width: 1272px) {
-  .nav {
-    height: 150px;
-  }
 }
 
 @media (max-width: 1080px) {

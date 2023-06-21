@@ -1,9 +1,7 @@
 import data from "./data/lol/lol.js";
 import filters from "./data.js";
 
-//Obteniedo el elemento section, donde va a estar todas las fichas
 const listChampions = document.querySelector("#listChampions");
-// Forma refactorizada de la variable 'champions' para acceder a los objetos de la data
 const champions = Object.values(data.data);
 // Acceder a los objetos de la data por la variable 'champions'
 const showAllChampions = (data) => {
@@ -74,4 +72,3 @@ difficulty.forEach((e) => {
     textHigh.innerHTML = `${totalResult}%`;
   }
 })
-
