@@ -40,6 +40,7 @@ input.addEventListener("change", (e) => {
   const searchName = filters.filterName(champions, inputValue);
   showAllChampions(searchName);
 });
+
 //Mostrar su dificultad ordenadamente
 const difficulty = document.querySelectorAll(".menu__inside--difficulty");
 difficulty.forEach((e) => {
@@ -50,6 +51,9 @@ difficulty.forEach((e) => {
     showAllChampions(chosenDifficulty);
   });
 });
+
+
+
 //Mostrar porcentaje de barras
 const barLow = document.getElementById("bar-low")
 const barMedium = document.getElementById("bar-medium")
